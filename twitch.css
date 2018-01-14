@@ -1,0 +1,11 @@
+.rounded-right {
+    margin: 20px 0;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.rounded-circle {
+    width: 30%;
+    border: 2px solid black;
+}
+
