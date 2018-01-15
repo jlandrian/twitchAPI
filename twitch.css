@@ -1,11 +1,68 @@
-.rounded-right {
-    margin: 20px 0;
-    padding: 10px;
-    border: 2px solid black;
+body {
+    background-color: #6441a4;
+    color: #C1A7F0;
+    font-size: 0.9em;
+}
+
+.twitch {
+    width: 30%;
+}
+
+h4 {
+    color: #FFFFFF;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.main {
+    margin: 0 auto 50px auto;
+    padding-bottom: 15px;
+    width: 70%;
+    border-radius: 20px;
+    animation: fadein 500ms cubic-bezier(.09,.94,.36,1.53);
+    background-color: #935FF0;
+}
+
+a {
+    color: #D7B140;
+}
+
+a:hover {
+    color:#FFFFFF;
+}
+
+.row {
+    padding: 10px 10px 10px 0;
+}
+
+.row:nth-child(odd) {
+    color: #452D71;
+}
+
+.row:nth-child(even){
+    background-color: #452D71;
+    color: #935FF0;
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+        margin-top: 200px;
+    }
+    100% {
+        opacity: 1;
+        margin-top: 0;
+    }
 }
 
 .rounded-circle {
-    width: 30%;
+    width: 40%;
     border: 2px solid black;
 }
 
+.arrow-right {
+  width: 0; 
+  height: 0; 
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent;
+  border-left: 30px solid #6441a4;
+}
